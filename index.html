@@ -19,6 +19,7 @@
     rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
     rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -33,9 +34,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">White Buffalo Woman</a>
+      <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">White Buffalo Woman</a>-->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="mobileNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -47,8 +48,8 @@
             <a class="nav-link js-scroll-trigger" href="#shows">Shows</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#merch">Merch</a>
-            </li>
+            <a class="nav-link js-scroll-trigger" href="#merch">Merch</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
@@ -66,31 +67,15 @@
     </div>
   </header>
 
-  <!--<header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div>
-        </div>
-      </div>
-    </header>-->
-
-  <section class="bg-primary">
+  <section class="bg-dark" id="music">
     <div class="container">
-        <h2 class="section-heading text-center text-white"><i>Foolish Hearts</i> Out Now!</h2>    
-        <hr class="light my-4">    
-        <br>    
+      <h2 class="section-heading text-center text-white">
+        <i>Foolish Hearts</i> Out Now!</h2>
+      <hr class="light my-4">
+      <br>
       <div class="row">
         <div class="col-md-6">
-            <img class="img-fluid" src="img/music/foolishhearts.jpg">  
+          <img class="img-fluid" src="img/music/foolishhearts.jpg">
         </div>
         <div class="col-md-6">
           <p class="text-faded mb-4" style="padding-top:50px">Our second, full-length album is now available to purchase and stream. Click the links below to give it a listen!</p>
@@ -100,150 +85,104 @@
     </div>
   </section>
 
-  <section id="music">
+  <section>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">At Your Service</h2>
+          <h2 class="section-heading">Our Older Albums</h2>
           <hr class="my-4">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Sturdy Templates</h3>
-            <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-          </div>
+        <div class="col-md-3 col-sm-4 text-center">
+          <img class="img-fluid" src="img/music/whitebuffalowoman.jpg">
+          <h3 class="album-title">White Buffalo Woman</h3>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Ready to Ship</h3>
-            <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-          </div>
+        <div class="col-md-3 col-sm-4 text-center">
+          <img class="img-fluid" src="img/music/likeyouusedto.jpg">
+          <h3 class="album-title">Like You Used to Do</h3>
+          <p class="text-muted mb-0"></p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Up to Date</h3>
-            <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-          </div>
+        <div class="col-md-3 col-sm-4 text-center">
+          <img class="img-fluid" src="img/music/whitebuffalowomanep.jpg">
+          <h3 class="album-title">White Buffalo Woman EP</h3>
+          <p class="text-muted mb-0"></p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Made with Love</h3>
-            <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-          </div>
+        <div class="col-md-3 col-sm-4 text-center">
+          <img class="img-fluid" src="img/music/mydays.jpg">
+          <h3 class="album-title">My Days 7"</h3>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
+
+  <section class="bg-dark" id="shows">
+    <div class="container">
+      <h2 class="section-heading text-center text-white">Upcoming Shows</h2>
+      <hr class="light my-4">
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+          <a class="bit-widget-initializer" data-artist-name="White Buffalo Woman" data-display-local-dates="false" data-display-past-dates="false"
+            data-auto-style="false" data-text-color="#31465C" data-link-color="#31465C" data-popup-background-color="#FFFFFF"
+            data-background-color="#FFFFFF" data-display-limit="5" data-link-text-color="#FFFFFF"></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-dark text-white">
+
+  <section id="merch">
     <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      <h2 class="mb-4">Merchandise</h2>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="text-center col-md-6">
+          <img class="img-fluid" src="img/merchshirt.jpg">
+          <br>
+          <br>
+          <p>Our limited-edition women's graphic tee is quite the show-stopper. Get it before it's gone!</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Buy Now</a>
+    </div>
+  </section>
+
+  <section class="bg-dark" id="about">
+    <div class="container">
+      <h2 class="section-heading text-center text-white">About Us</h2>
+      <hr class="light my-4">
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" src="img/biophoto.png">
+        </div>
+        <div class="col-md-6">
+          <p class="text-faded mb-4">White Buffalo Woman is a young, howling mess that is crouching on all fours and readying itself to pounce on the
+            world of rock ’n’ roll.</p>
+          <p class="text-faded mb-4">The band started in Minerva, Ohio in drummer Joe’s basement, below their family-run funeral home. Members include
+            Evan Rutledge (Vocals), Adam Murphy (Guitar), Alex Leggett (Bass) Devin Bezeredi (Guitar) and Joe Wales (Drums).
+            The band fuses rock, blues, psychedelic, souland punk into an explosion of new music.</p>
+          <p class="text-faded mb-4">They have played across the US and opened for acts like Dex Romweber, Patrick Sweany, The Buffalo Killers, Dan
+            Sartain, Jacuzzi Boys, The Ettes, James Leg and The Stone Foxes.</p>
+        </div>
+        <div class="col-md-12">
+          <br>
+          <p class="text-faded mb-4">Their first full-length album,
+            <i>White Buffalo Woman</i>, was released by Grimtale in early 2016. They have released a 7” vinyl record “My Days/
+            This Town” (released on Grimtale Records) in 2012, followed by a self released four song EP in 2013 and a 7″
+            single “Like You Used To Do/Always on My Mind” released on Grimtale records in 2014. Their music has earned them
+            airplay on Little Steven’s “Underground Garage” on SiriusXM and a thumbs-up from J. Geils' frontman/singer Peter
+            Wolf. Their musical style ranges from organ-laced garage rock to Southern-fried soul to uncannily Stonesy, all
+            great fun.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -251,7 +190,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
+          <h2 class="section-heading">Get In Touch</h2>
           <hr class="my-4">
           <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back
             to you as soon as possible!</p>

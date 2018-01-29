@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: rgb(255, 0, 0);
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: rgb(255, 0, 0);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: rgb(255, 0, 0);
 }
 
 h1,
@@ -38,8 +38,12 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.album-title{
+  font-size:21px;
+}
+
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: rgb(255, 0, 0);
 }
 
 .bg-dark {
@@ -81,8 +85,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #00000075;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -92,12 +95,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: rgba(255, 255, 255, 0.7);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -105,18 +108,18 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
-  background-color: transparent;
+  color: #fff !important;
+  background-color: rgba(255, 0, 0, 0.644);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
@@ -147,23 +150,27 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
-  }
+    background-color: #212529b4;
+    }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #ffffffc2;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #fff;
   }
+}
+
+#mobileNav{
+  background-color:white;
+  color:white;
 }
 
 
